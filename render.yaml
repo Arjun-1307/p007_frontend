@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: p007-app
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGODB_URI
+        value: "<your-uri>"
+      - key: MONGODB_DB
+        value: "<db-name>"

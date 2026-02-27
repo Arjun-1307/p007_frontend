@@ -1,0 +1,49 @@
+.app {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50px calc(100% - 80px) 30px;
+}
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 0;
+}
+.app .section {
+  overflow: auto;
+}
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    font-size: 12pt;
+    margin: 0;
+}
+.app .section .table {
+    width: 100%;
+}
+.app .section .table thead {
+    background-color: limegreen;
+    
+}
+.app .section .table thead tr {
+   height: 33px;
+}
+.app .section .table thead tr th {
+   border: 1px solid #ccc;
+}
+.app .section .table tbody tr td {
+   border: 1px solid #ccc;
+   padding: 8px;
+}
+.app .section .table tbody tr td img {
+    width: 20px;
+    margin-right: 10px;
+}
