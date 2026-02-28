@@ -10,8 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "nodemon backend/app.js",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "cors": "^2.8.6",
